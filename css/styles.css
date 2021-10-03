@@ -123,6 +123,17 @@ ul {
 
   text-align: center;
   background-color: var(--background-color);
+
+  width: 1600px;
+
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../imges/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero .hero-title {
   margin-bottom: 30px;
