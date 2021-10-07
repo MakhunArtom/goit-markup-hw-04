@@ -15,29 +15,44 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container main-header header-border">
-    
-            <nav class="naviget">
-                <a class="logo tdn" href=""><span class="web">Web</span>Studio</a>
-                <ul class="nav-list lsn">
-                    <li class="nav-item"><a href="./indx.html" class="link  tdn">Студия</a></li>
-                    <li class="nav-item"><a href="" class="link current tdn">Портфолио</a></li>
-                    <li class="nav-item"><a href="" class="link tdn">Контакты</a></li>
-                </ul>
-            </nav>
-    
-            <ul class="contacts lsn">
-                <li class="contacts-list">
-                    <a href="mailto:info@devstudio.com" class="contacts-item tdn ">info@devstudio.com</a>
-                </li>
-                <li class="contacts-list">
-                    <a href="tel:+380961111111" class="contacts-item tdn">+38 096 111 11 11</a>
-                </li>
+<header class="header">
+    <div class="container main-header">
+
+        <nav class="naviget">
+            <a class="logo tdn" href=""><span class="web">Web</span>Studio</a>
+            <ul class="nav-list lsn">
+                <li class="nav-item"><a href="./indx.html" class="link  tdn">Студия</a></li>
+                <li class="nav-item"><a href="" class="link current tdn">Портфолио</a></li>
+                <li class="nav-item"><a href="" class="link tdn">Контакты</a></li>
             </ul>
-    
-        </div>
-    </header>
+        </nav>
+
+        <ul class="contacts lsn">
+
+
+            <li class="contacts-list icon-mail">
+                <a href="mailto:info@devstudio.com" class="contacts-item tdn ">
+                    <svg class="icon-mail" width="16" height="12">
+                        <use href="./imges/sprait.svg.svg#mail"></use>
+                    </svg>
+
+                    info@devstudio.com
+                </a>
+            </li>
+            <li class="contacts-list icon-tel">
+                <a href="tel:+380961111111" class="contacts-item tdn">
+                    <svg class="icon-tel" width="10" height="16">
+                        <use href="./imges/sprait.svg.svg#smartphone"></use>
+                    </svg>
+
+                    +38 096 111 11 11
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</header>
+
     <main>
         <section class="navigator" >
             <div class="container">
@@ -137,22 +152,65 @@
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-link">
-                <a class="logo tdn" href=""><span class="web">Web</span>Studio</a>
+        <div class="footer-info container">
+            <div class="footer-left ">
+                <div class="footer-link">
+                    <a class="logo tdn" href=""><span class="web">Web</span>Studio</a>
+                </div>
+                <address class="addresses">
+                    <p class="addresses-text">г. Киев, пр-т Леси Украинки, 26</p>
+                    <div class="mail">
+                        <a href="mailto:info@devstudio.com" class="addresses-mail tdn">info@devstudio.com</a><br>
+                    </div>
+                    <div class="tel">
+                        <a href="tel:+380961111111" class="addresses-tel tdn">+38 096 111 11 11</a>
+                    </div>
+                </address>
             </div>
-            <address class="addresses">
-                <p class="addresses-text">г. Киев, пр-т Леси Украинки, 26</p>
-                <div class="mail">
-                    <a href="mailto:info@devstudio.com" class="addresses-mail tdn">info@devstudio.com</a><br>
-                </div>
-                <div class="tel">
-                    <a href="tel:+380961111111" class="addresses-tel tdn">+38 096 111 11 11</a>
-                </div>
-            </address>
+            <div class="footer-right">
+    
+                <h3 class="foote-title-icon">ПРИСОЕДИНЯЙТЕСЬ</h3>
+    
+                <ul class="foote-social-list lsn">
+    
+                    <li class="foote-social-item">
+                        <a class="foote-social-link" href="">
+                            <svg class="foote-social-icon">
+    
+                                <use href="./imges/sprait.svg.svg#instagram"></use>
+    
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="foote-social-item">
+                        <a class="foote-social-link" href="">
+                            <svg class="foote-social-icon">
+                                <use href="./imges/sprait.svg.svg#twitter"></use>
+    
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="foote-social-item">
+                        <a class="foote-social-link" href="">
+                            <svg class="foote-social-icon">
+                                <use href="./imges/sprait.svg.svg#facebook"></use>
+    
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="foote-social-item">
+                        <a class="foote-social-link" href="">
+                            <svg class="foote-social-icon">
+                                <use href="./imges/sprait.svg.svg#linkedin"></use>
+    
+                            </svg>
+                        </a>
+                    </li>
+    
+                </ul>
+            </div>
         </div>
     </footer>
-
 
 
 </body>
