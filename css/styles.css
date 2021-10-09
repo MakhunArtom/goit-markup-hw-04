@@ -110,23 +110,17 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  fill: var(--text-color);
 }
 .contacts-item:hover,
 .contacts-item:focus {
+  fill: var(--hover-color);
   color: var(--hover-color);
 }
 
 .icon-mail,
 .icon-tel {
   margin-right: 10px;
-}
-.icon-mail:hover,
-.icon-mail:focus {
-  fill: var(--hover-color);
-}
-.icon-tel:hover,
-.icon-tel:focus {
-  fill: #03a9f4;
 }
 
 /* .................Hero................... */
@@ -343,8 +337,8 @@ ul {
 /*................ clients................. */
 
 .clients {
-  padding-top: 76px;
-  padding-bottom: 78px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .title_clients {
@@ -467,11 +461,11 @@ ul {
 .foote-title-icon {
   font-style: normal;
   font-weight: bold;
+  font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--hero-address-color);
-
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
